@@ -1,0 +1,41 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button, select{
+    margin-bottom: 10px;
+}
+
+.imagem{
+    max-width: 1024px;
+}
+
+.imagem img{
+    width: 100%;
+}
+
+.imagem-sc{
+    display: none;
+}
+
+.imagem-rj{
+    display: none;
+}
+
+.imagem-mc{
+    display: none;
+}
+
+@media(max-width: 546px){
+    h1{
+        text-align: center;
+        font-size: 22px;
+    }
+}
